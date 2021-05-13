@@ -1,0 +1,147 @@
+/* extra small device start  */
+@media (max-width:575.98px) {
+
+
+  .navbar-light .navbar-toggler {
+    color: #008477;
+    border: none !important;
+  }
+
+  .navbar .navbar-brand {
+    height: 65px;
+    line-height: 65px;
+    color: #008477;
+
+  }
+
+  .navbar .navbar-nav .nav-item .nav-link {
+    margin-left: 0;
+  }
+
+  .navbar .navbar-nav .nav-item {
+    background: #2ecc71;
+    text-align: center;
+  }
+
+  .navbar .navbar-nav .nav-item .nav-link::before {
+    display: none;
+  }
+
+  #banner .myname p span {
+    font-size: 13px;
+  }
+
+  #banner .myname p {
+    font-size: 19px;
+  }
+
+  #banner .line span b {
+    font-size: 58px;
+  }
+
+  #banner .headline .im {
+    font-size: 46px;
+  }
+
+  #banner .myname p {
+    padding-top: 235px;
+  }
+
+  #banner .banner-btn {
+    padding-bottom: 195px;
+  }
+
+  #about .about-me p {
+    padding-top: 0;
+  }
+
+  #about h3 {
+    padding-top: 30px;
+  }
+
+  #counter .counter-part .text-part {
+    border-right: 0;
+  }
+
+
+  #work .work-header ul li {
+    font-size: 10px;
+  }
+
+  #get-touch .me-info {
+    margin-bottom: 25px;
+  }
+
+  #get-touch .massage .form-control {
+    margin-bottom: 16px;
+  }
+
+  #get-touch .massage #floatingTextarea {
+    height: 160px;
+  }
+
+  #get-touch .me-info {
+    padding: 15px 20px;
+  }
+
+
+  #experience .expe-content .cmpname h4 {
+    font-size: 12px;
+  }
+
+  #experience .expe-content .cmpcontent h5 {
+    font-size: 15px;
+  }
+
+  #experience .expe-content .cmpcontent p {
+    font-size: 10px;
+  }
+
+  #experience .expe-content .cmpdate h6 {
+    font-size: 10px;
+  }
+
+  #experience .cmpcontent {
+    padding: 0 20px;
+  }
+
+}
+
+/* extra small device end  */
+
+/* small device start  */
+@media (min-width:576px) and (max-width:767.98px) {
+  .navbar-nav {
+    padding-top: 2px;
+  }
+
+  .navbar-light .navbar-toggler {
+    color: #008477;
+    border: none !important;
+  }
+
+  .navbar .navbar-nav .nav-item .nav-link {
+    margin-left: 0;
+  }
+
+  .navbar .navbar-nav .nav-item {
+    background: #2ecc71;
+    text-align: center;
+  }
+
+  .navbar .navbar-nav .nav-item .nav-link::before {
+    display: none;
+  }
+
+
+  #experience .cmpcontent {
+    padding: 0 20px;
+  }
+
+}
+
+/* small device end  */
+/* m device start  */
+@media (min-width:768px) and (max-width:991.98px) {}
+
+/* m device end  */
